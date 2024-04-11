@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+html {
+    width: 100%;
+   
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+header {
+    isolation: isolate;
+    background-color:#1D3051 ;
+    height: 150px;
+    padding-left: 15px;
+    color: white;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header img{
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px;
+    /*transition: 2s;*/
+    margin-right: 15px;
+}
+
+header h1 {
+    margin  : 0;
+    padding-top: 15px;
+    color: #CDEBDA;
+}
+
+#persInform p {
+    padding: 10px;
+}
+
+#languageButtons {
+    position: absolute;
+    right: 50px; 
+}
+
+#languageButtons a:hover {
+    color: #6c8da3;
+    
+}
+
+#languageButtons a:active {
+    color: #6c8da3;
+    background-color: #f4fef8;
+} 
+
+#french{
+    margin-left: 5px;
+    padding: 0 8px;
+    text-decoration: none;
+    color: #1D3051;
+    border-radius: 15%;
+    background-color: #CDEBDA;
+}
+
+#english {
+    margin-right: 5px ;
+    padding: 0 8px;
+    background-color: #CDEBDA;
+    border-radius: 15%;
+    text-decoration: none;
+    color: #1D3051;
+}
+
+#persInform {
+    padding-left:30px;
+    font-style: italic;   
+}
+
+#test {    
+    width:  100%;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.category {
+    padding-left: 30px;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.category li {
+    padding-bottom: 10px;
+}
+
+.remove {
+    list-style-type: none;
+}
+
+.personnalLifePhone {
+    display: none;
+}
+
+
+/* //////////////////////////////////////////////Contact Zone///////////////////////////////////////////////////*/
+
+
+#formulaireContact {
+    
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    display: flex;
+    flex-direction: column;
+    
+
+    background-color: #e0e0e0;
+    
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+    
+}
+
+#formulaireContact a{
+    text-decoration: none;
+    color:  #04307c ;
+
+    
+}
+
+.personnalLife {
+    padding-top: 20px;
+    width: 200px;
+}
+
+.personnalLife li{
+    padding-top: 10px;
+    
+}
+
+.ligne_contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+
+    align-items: center;  
+}
+
+.ligne_contact img{
+    height: 30px;
+    width: 30px;
+    margin-right:10px ;
+    
+}
+
+#print {
+    margin-left: 5px ;
+    padding: 0 6px;
+    background-color: #CDEBDA;
+    border-radius: 10%;
+    text-decoration: none;
+    color: #1D3051;
+    
+}
+    
+@media only screen and (max-width: 845px) {
+    #formulaireContact {
+        width: 220px;
+            
+    }
+
+    .ligne_contact{
+        font-size: 0.875rem;
+    }
+
+    #test {
+        width: 90%;
+    }
+
+    .category {
+        padding-left: 30px;
+        width: 350px;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+@media only screen and (max-width: 650px) {     
+#container {
+    display: flex;
+    flex-direction: column;
+        }
+        
+    #formulaireContact {
+        padding-left: 20px;
+        width: auto;
+        padding-bottom: 15px;
+            
+    }
+
+    #languageButtons {
+        right: 25px;
+        top: 155px;
+            
+    }
+
+    #languageButtons a {
+        background-color: #1D3051;
+        color: #CDEBDA;
+        }
+
+    .ligne_contact{
+        font-size: 1rem;
+        }
+
+    .personnalLife {
+        padding-top: 20px;
+        width: 400px;
+        display: none;
+        }
+
+    #test {
+        border-top: none;
+        } 
+
+    .personnalLifePhone {
+        display: block;
+            
+        }
+
+    #persInform p{
+        width: 90%;
+        }
+        
+    .category  {
+        width: 90%;
+        padding-left: 20px;
+        }
+
+    }
+
+@media only screen and (min-width: 1200px) {
+    #test {
+        width: 100%;
+        }
+
+    .category  {
+        font-size: 1.3rem;
+        width: 700px;
+        }
+
+    #persInform {
+        font-size: 1.3rem;
+        }
+
+    #formulaireContact {
+        width: 400px;
+        font-size: 1.3rem;
+        }
+
+    .personnalLife {
+        width: 300px;
+        }
+    }
+
+@media only screen and (min-width: 1700px) {
+
+    #view {
+            
+        display: flex;
+        flex-direction: row;  
+        width: 100%;  
+            
+        }
+
+    #test {
+        border-top: 0;
+        width : auto;
+        }
+
+    #extra {
+        padding-top: 65px;
+        padding-right: 20px;
+        }
+
+    .category {
+        width: 600px;
+        }      
+        
+    }
+
+@media print {
+    #languageButtons {
+        display: none;
+    }
+
+    #test h3 {
+        margin: 0px;
+    }
+
+    .category li {
+        padding-bottom: 0px;
+    }
+    
+    #formulaireContact {
+        background-color: #F0F0F0;
+        
+    }
+
+    
+    html{
+        border: 1px solid black;
+        
+        
+    }
+
+    header {    
+        border-right: 1px solid black;
+    }
+
+    #view {
+        border-right: 1px solid black;
+    }
+
+
+
+    #formulaireContact a{
+        color: black;
+    }
+}
+
+
+
+
+
+
+
+
+

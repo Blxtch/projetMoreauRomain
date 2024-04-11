@@ -1,0 +1,16 @@
+
+Bonjour Monsieur,
+
+Dans le cadre du projet, j'ai mis en place trois fonctionnalités JavaScript :
+
+. Deux fonctionnalités écrites par mes soins,
+. Un plugin repris sur internet.
+
+Dans chacun des fichiers JS, il y a un bref descriptif du contenu. J'ai choisi de les répartir dans plusieurs fichiers pour qu'ils soient nettement séparés. NB: Peut être fait à l'extrême.
+
+- print.js: rend possible l'impression de mon CV. J'ai essayé d'ajuster le CSS pour que cela paraisse plus propre.
+
+- script_lang.js: j'ai tenté de mettre au point un bouton de changement de langue. Il est fonctionnel, mais je pense qu'il doit être possible de mieux l'implémenter.
+
+- darkmode-js.js: plugin d'un switch darkmode - lightmode trouvé sur internet que j'ai un peu retravaillé pour avoir un rendu qui me convienne plus. Voici le lien vers le plugin : "https://www.jqueryscript.net/form/creative-dark-mode-switch.html".
+
