@@ -30,7 +30,7 @@
 
                 document.getElementById("persIn1").textContent = "Objectif: Obtenir un stage étudiant";
                 document.getElementById("persIn2").textContent = "Informations Personnelles:";
-                document.getElementById("persIn3").textContent = "22 ans, né le 30 octobre 2001 à Charleroi (Belgique), je suis actuellement étudiant";
+                document.getElementById("persIn3").textContent = "23 ans, né le 30 octobre 2001 à Charleroi (Belgique), je suis actuellement étudiant";
   
                 //partie expérience 
                 document.getElementById("cat").textContent = "Expérience";
@@ -43,12 +43,12 @@
   
                 //partie compétences
                 document.getElementById("skills").textContent = "Compétences";
-                document.getElementById("skill1").textContent = "Programmation FullStack (Python, Java, ...)";
+                document.getElementById("skill1").textContent = "Programmation FullStack (Python, Java, React.js)";
                 document.getElementById("skill2").textContent = "Excellente compréhension et expression en anglais";
                 document.getElementById("skill3").textContent = "Qualités commerciales acquises en aidant mon père dans son commerce";
                 document.getElementById("skill4").textContent = "Bonne gestion du stress";
                 document.getElementById("skill5").textContent = "Capacité à prendre en charge un client et à maintenir une bonne relation commerciale";
-                document.getElementById("skill6").textContent = "Compétences avancées en informatique acquises lors de mes études";
+                
   
                 //partie qualité bis
                 document.getElementById("quali").textContent = "Qualités";
@@ -70,7 +70,8 @@
                 document.getElementById("cat9").textContent = "2023-maintenant : Avec l'aide de 9 autres étudiants, nous avons créé notre propre organisation à but non lucratif dans le but de participer à plus de hackathons et de sensibiliser plus de personnes sur le sujet de la Blockchain. Je suis personnellement en charge de la trésorerie.";
                 document.getElementById("cat5/2").textContent = "2023 : Participation au hackathon ETHDam organisé au Pakhuis de Zwijger à Amsterdam (Centre d'art et de culture)." ;   
                 document.getElementById("extrati").textContent = "Activités Extra-Scolaires:";
-            
+                document.getElementById("cat5/3").textContent = "2024 : Participation au hackathon ETH Global organisé à Bruxelles, l'un des plus grands événements de l'écosystème Ethereum.";
+                document.getElementById("cat10").textContent = "2024-maintenant : Actuellement en charge de l'enseignement de la programmation à de jeunes étudiants dans le programme Logiscool.";
 
                 var en = document.getElementById("english");
 
@@ -130,12 +131,13 @@
                     document.getElementById("cat6/2").textContent = "2022-present, helped with the maintenance and development of the school's Museum of Technology.";
                     document.getElementById("cat7").textContent = "2022-2023: Museum theme focused on electronics.";
                     document.getElementById("cat8").textContent = "2023-2024 : Museum theme focused on electricity.";
-                    document.getElementById("cat9").textContent = "2023-present, co-founded a non-profit organization with 9 other students to help us participate in more hackathons and raise awareness about blockchain technology, I am personally in charge of the treasury";
-                    document.getElementById("cat5/2").textContent = "2023, participated to the ETHDam hackathon hosted at Pakhuis de Zwijger in Amsterdam, an art and cultural center"; 
+                    document.getElementById("cat9").textContent = "April-present, co-founded a non-profit organization with 9 other students to help us participate in more hackathons and raise awareness about blockchain technology, I am personally in charge of the treasury";
+                    document.getElementById("cat5/2").textContent = "2024, participated to the ETHDam hackathon hosted at Pakhuis de Zwijger in Amsterdam, an art and cultural center"; 
                     
-                    document.getElementById("cat5/2").textContent = "2023: Participated in the ETHDam Hackathon held at Pakhuis de Zwijger in Amsterdam, an art and cultural center.";
+                    document.getElementById("cat5/2").textContent = "2024: Participated in the ETHDam Hackathon held at Pakhuis de Zwijger in Amsterdam, an art and cultural center.";
                     document.getElementById("extrati").textContent = "Extra-Curricular Activities:";
-
+                    document.getElementById("cat5/3").textContent = "2024: Participated in the ETH Global Hackathon hosted in Brussels, one of the biggest events in the Ethereum ecosystem.";
+                    document.getElementById("cat10").textContent = "2024-present: Currently teaching programming to young students in the Logiscool program.s";
                 });
             });
         }
